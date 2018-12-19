@@ -12,7 +12,6 @@ age_diseases6=0
 age_diseases7=0
 with open(filename) as f:
     disease_data = json.load(f)
-    print(disease_data)
 
     for disease_dict in disease_data:
         if disease_dict['age']=="18-24":
